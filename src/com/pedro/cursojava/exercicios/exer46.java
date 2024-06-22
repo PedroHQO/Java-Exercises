@@ -16,7 +16,9 @@ public class exer46 {
 			System.out.println("Digite uma nota entre 0 e 10: ");
 			nota = ler.nextInt();
 			if(nota < 0 || nota > 10) {
-				System.out.println("NOTA INVÁLIDA!");
+				System.err.println("NOTA INVÁLIDA!");
+				}else {
+					System.out.println("Você digitou: " + nota);
 				}
 		}while(nota < 0 || nota > 10);
 			

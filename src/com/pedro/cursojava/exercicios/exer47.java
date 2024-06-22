@@ -23,7 +23,10 @@ public class exer47 {
 			
 			if(senha.equalsIgnoreCase(nome)){
 				System.out.println("SENHA NÃO PODE SER IGUAL NOME DE USUÁRIO!");
+			}else {
+				System.out.println("Senha e Usuário Válido!");
 			}
+			
 		}while(senha.equalsIgnoreCase(nome));
 
 	}
