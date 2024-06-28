@@ -1,12 +1,14 @@
 package com.pedro.cursojava.exercicios.oo.classes.metodos;
 
+/*Escreva	uma classe para	representar	uma	lâmpada. Desenvolva	métodos	
+para	ligar,	desligar	a	lampada.*/
+
 import java.util.Scanner;
 
 public class Lamppada {
 
 	int ligar;
 	int desligar;
-	int cont;
 	
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
