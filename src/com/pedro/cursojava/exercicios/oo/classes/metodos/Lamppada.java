@@ -29,23 +29,17 @@ public class Lamppada {
 			int acionarlampada = lampadaStatus.desligarLampada();
 			System.out.println("Status da Lâmpada: " + lampadaStatus.desligar);
 		}
-		
-
 	}
 	
 	int ligarLampada() {
 
 		System.out.println("Lampada está ligada!");
-		return ligar;
-		
+		return ligar;	
 	}
 	
 	int desligarLampada() {
 
 		System.out.println("Lampada está desligada!");
-		return desligar;
-		
+		return desligar;	
 	}
-
-
 }

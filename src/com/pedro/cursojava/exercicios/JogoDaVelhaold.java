@@ -11,7 +11,7 @@ determinar automaticamente quando o jogo terminou e quem foi o
 vencedor (jogador1 ou jogador2). A cada nova jogada, o programa 
 deve atualizar a situação do tabuleiro na tela.*/
 
-public class JogoDaVelha {
+public class JogoDaVelhaold {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
