@@ -21,4 +21,5 @@ public class TesteCalculadora {
 	static int soma2Valore(int num1, int num2) {
 		return(MinhaCalculadora.soma(num1, num2));
 	}
+	
 }
