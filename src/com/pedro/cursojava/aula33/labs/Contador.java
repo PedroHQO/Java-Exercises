@@ -2,14 +2,18 @@ package com.pedro.cursojava.aula33.labs;
 
 public class Contador {
 	
-	static int  soma;
+	private static int  soma;
+	
+	public Contador() {
+		soma++;
+	}
 
-	public static int zerarIncrementador() {
-		return soma * 0;
+	public static void zerarIncrementador() {
+		soma = 0;
 	}
 	
-	static int somaIncrementador() {
-		return soma++;
+	public static void somaIncrementador() {
+		soma++;
 	}
 	
 	public static int retornarIncrementador() {

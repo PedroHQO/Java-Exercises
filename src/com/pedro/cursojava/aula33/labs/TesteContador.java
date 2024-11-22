@@ -1,22 +1,35 @@
 package com.pedro.cursojava.aula33.labs;
 
 public class TesteContador {
+	
+	static void imprimirValor() {
+		System.out.println(Contador.retornarIncrementador());
+	}
 
 	public static void main(String[] args) {
 		
-		Contador.soma = -10;
+		imprimirValor();
 		
-		System.out.println(Contador.zerarIncrementador());
+		Contador.somaIncrementador();
 		
-		System.out.println(Contador.somaIncrementador());
+		imprimirValor();
 		
-		System.out.println(Contador.somaIncrementador());
+		Contador.somaIncrementador();
 		
-		System.out.println(Contador.somaIncrementador());
+		imprimirValor();
 		
-		System.out.println(Contador.retornarIncrementador());
+		Contador.zerarIncrementador();
 		
-		System.out.println(Contador.zerarIncrementador());
+		imprimirValor();
+		
+		Contador.somaIncrementador();
+		
+		Contador c1 = new Contador();
+		Contador c2 = new Contador();
+		Contador c3 = new Contador();
+		
+		imprimirValor();
+		
 
 	}
 
