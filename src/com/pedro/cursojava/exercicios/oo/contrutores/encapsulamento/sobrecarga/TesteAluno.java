@@ -40,6 +40,7 @@ public class TesteAluno {
             } else {
                 System.out.println("Disciplina " + aluno.getNomeDisciplinas()[i] + " - reprovado");
             }
+           
         }
 		
 
